@@ -1,0 +1,79 @@
+table{
+	width: 500px;
+	height: 500px;
+	margin: auto;
+	padding: 0px;
+}
+
+@keyframes s1{
+	0% {background-color: red}
+	25% {background-color: orange}
+	50% {background-color: yellow}
+	75% {background-color: green}
+	100% {background-color: blue}
+}
+
+
+#s1{
+	background: red; 
+	animation-name: s1;
+	animation-duration: 5s;
+	
+}
+
+#s2{
+	background: red;
+	animation-name: s1;
+	animation-duration: 5s;
+	animation-delay: .5s;
+
+}
+
+#s3{
+	background: red;
+	animation-name: s1;
+	animation-duration: 5s;
+	animation-delay: 1s;
+}
+
+#s4{
+	background: red;
+	animation-name: s1;
+	animation-duration: 5s;
+	animation-delay: .5s;
+}
+
+#s5{
+	background: red;
+	animation-name: s1;
+	animation-duration: 5s;
+	animation-delay: 1s;
+}
+
+#s6{
+	background: red;
+	animation-name: s1;
+	animation-duration: 5s;
+	animation-delay: 1.5s;
+}
+
+#s7{
+	background: red;
+	animation-name: s1;
+	animation-duration: 5s;
+	animation-delay: 1s;
+}
+
+#s8{
+	background: red;
+	animation-name: s1;
+	animation-duration: 5s;
+	animation-delay: 1.5s;
+}
+
+#s9{
+	background: red;
+	animation-name: s1;
+	animation-duration: 5s;
+	animation-delay: 2s;
+}
